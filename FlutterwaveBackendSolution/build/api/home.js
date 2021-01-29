@@ -10,13 +10,7 @@ var home = function home(req, res) {
       email: "paulpaul6679@gmail.com",
       mobile: "09018379918",
       twitter: "@__PaulAdemola",
-    },
-    
-  rule: {
-    field: "missions",
-    condition: "gte",
-    condition_value: "30"
-  }
+    }
   });
 };
 //This exports the entire module and makes it resuable in other parts of the code
